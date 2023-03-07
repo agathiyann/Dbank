@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@drawable/img1"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Expenses">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/xml_addexpense"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Add Expense"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#2196F3"
+            android:gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/xml_addincome"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Add Income"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#2196F3"
+            android:gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/xml_viewdetails"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="View Income and Expense Details"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#2196F3"
+            android:gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
